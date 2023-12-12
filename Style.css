@@ -481,8 +481,8 @@ header{
              /* Style for the horizontal line */
              .horizontal-line-two {
               position: absolute;
-              top: 109%;
-              right: 48rem;
+              top: 120%;
+              right: 44rem;
               width: 39%;
               height: 3.5px;
               background-color: #542f0f;
