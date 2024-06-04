@@ -729,158 +729,59 @@ header{
         }
 
         /* Footer */
-        footer {
-          position: absolute;
-        
-          left: 0;
-        
-          right: 0;
-        
-          background: #111;
-        
-          height: 200px;
-        
-          width: 100vw;
-        
-     
-        
-          color: #fff;
-        }
-        
-        .footer-content {
-          display: flex;
-        
-          align-items: center;
-        
-          justify-content: center;
-        
-          flex-direction: column;
-        
-          text-align: center;
-        }
-        
-        hr {
-          width: 430px;
-          height: 1px;
-          fill: rgb(242, 242, 242);
-          outline-color: #cdefbd;
-      }
-        .footer-content h3 {
-          font-size: 1.1rem;
-        
-          font-weight: 500;
-        
-          text-transform: capitalize;
-        
-          line-height: 3rem;
-        }
-        .footertwo p
-        {
-          font-style: italic;
-        }
-        .footer-content p {
-          max-width: 500px;
-        
-          margin: 10px auto;
-        
-          line-height: 28px;
-        
-          font-size: 14px;
-        
-          color: #cacdd2;
-        }
-        
-        .socials {
-          list-style: none;
-        
-          display: flex;
-        
-          align-items: center;
-        
-          justify-content: center;
-        
-          margin: 1rem 0 3rem 0;
-        }
-        
-        .socials li {
-          margin: 0 10px;
-        }
-        
-        .socials a {
-          text-decoration: none;
-        
-          color: #fff;
-        
-          padding: 5px;
-        }
-        
-        .socials a i {
-          font-size: 1.1rem;
-        
-          width: 20px;
-        
-          transition: color 0.4s ease;
-        }
-        
-        .socials a:hover i {
-          color: aqua;
-        }
-        
-        /* .footer-bottom {
-          background: #000;
-        
-          width: 100vw;
-        
-          padding: 20px;
-        
-          padding-bottom: -40px;
-        
-          text-align: center;
-        }
-         */
-        .footer-bottom p {
-          float: left;
-        
-          font-size: 14px;
-        
-          word-spacing: 2px;
-        }
-        
-        .footer-bottom p a {
-          color: #ccc;
-        
-          font-size: 16px;
-        
-          text-decoration: none;
-        }
-        
-        .footer-bottom span {
-          text-transform: uppercase;
-        }
-        
-        .footer-menu {
-          float: right;
-        }
-        
-        .footer-menu ul {
-          display: flex;
-        }
-        
-        .footer-menu ul li {
-          padding-right: 10px;
-        
-          display: block;
-        }
-        
-        .footer-menu ul li a {
-          color: #cfd2d6;
-        
-          text-decoration: none;
-        }
-        
-        .footer-menu ul li a:hover {
-          color: #27bcda;
-        }
+        .footer{
+          background:#000;
+          padding:30px 0px;
+          font-family: 'Play', sans-serif;
+          text-align:center;
+          }
+          
+          .footer .row{
+          width:100%;
+          margin:1% 0%;
+          padding:0.6% 0%;
+          color:gray;
+          font-size:0.8em;
+          }
+          
+          .footer .row a{
+          text-decoration:none;
+          color:gray;
+          transition:0.5s;
+          }
+          
+          .footer .row a:hover{
+          color:#fff;
+          }
+          
+          .footer .row ul{
+          width:100%;
+          }
+          
+          .footer .row ul li{
+          display:inline-block;
+          margin:0px 30px;
+          }
+          
+          .footer .row a i{
+          font-size:2em;
+          margin:0% 1%;
+          }
+          
+          @media (max-width:720px){
+          .footer{
+          text-align:left;
+          padding:5%;
+          }
+          .footer .row ul li{
+          display:block;
+          margin:10px 0px;
+          text-align:left;
+          }
+          .footer .row a i{
+          margin:0% 3%;
+          }
+          }
         
         @media (max-width: 500px) {
           .footer-bottom p {
@@ -898,13 +799,7 @@ header{
           }
         }
         
-        .footer { 
-          position: absolute; 
-          bottom: 0; 
-          left: 0; 
-          z-index: 10;
-      }
-          
+     
        /* Home responsive  */
         @media(max-width: 600px)
         {
